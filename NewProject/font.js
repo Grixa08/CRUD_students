@@ -10,6 +10,8 @@ let table = document.getElementById("table")
 let button = document.getElementById("add");
 let button_o = document.getElementById("o_table");
 
+let fsort = document.getElementById("")
+
 button.addEventListener('click', async () => {
         try {
           const response = await fetch('http://localhost:3000/api/students', {
@@ -72,4 +74,15 @@ button_o.addEventListener("click", async () => {
               button_o.click();
           });
       });
+});
+students.sort(function(a, b) {
+  var nameA = a.lastName.toUpperCase(); // приведем все к верхнему регистру для корректного сравнения
+  var nameB = b.lastName.toUpperCase();
+  if (nameA &lt; nameB) {
+      return -1;
+  }
+  if (nameA &gt; nameB) {
+      return 1;
+  }
+  return 0; // имена равны
 });
