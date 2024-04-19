@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu h1{
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 14px 128px 32px 28px;
+    white-space: nowrap;
+}
+.menu{
+    border-right: 1px solid #e9ebf0;
+}
+.myproject{
+    border-radius: 6px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    background: #d7edff;
+    margin-left: 16px;
+}
+.myproject p{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: -0.01em;
+    color: #0e73f6;
+}
+.myproject img{
+    padding: 4px 8px;
+}
+.youproject{
+    border-radius: 6px;
+    max-width: 208px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+.youproject p{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: -0.01em;
+}
+.youproject img{
+    padding: 4px 8px;
+}
+.elips{
+    border-radius: 16px;
+    max-width: 24px;
+    width: 100%;
+    background: rgba(234, 179, 8, 0.1);
+    margin-right: 149px;
+}
+.Boards h2{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 143%;
+    color: #1f2633;
+    padding-right: 12px;
+}
+.Backlog{
+    display: flex;
+    width: 264px;
+    padding-right: 24px;
+}
+body{
+    display: flex;
+    background-color: #F7F8FA;
+}
+.Back{
+    box-shadow: 0 1px 3px 0 rgba(96, 108, 128, 0.05);
+    background: #fff;
+    border-radius: 8px;
+    width: 264px;
+    height: 136px;
+    position: absolute;
+    margin-top: 56px;
+}
+.Back h3{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 167%;
+    color: #1f2633;
+    padding: 18px 0 0 20px;
+}
+.lopi{
+    border: 0.50px solid #ccc;
+    border-radius: 90px;
+    width: 120px;
+    height: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 300%;
+    letter-spacing: -0.01em;
+    color: #84909a;
+    margin: 12px 20px;
+}
+.o{
+    background: #f2f4f7;
+    border-radius: 24px;
+    width: 32px;
+    height: 32px;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 160%;
+    text-align: center;
+    color: #606c80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 68px;
+}
+.img{
+    display: flex;
+    position: relative;
+    padding: 0 0 20px 20px;
+}
+.ui{
+    margin-left: 32px;
+}
+.Boards{
+    display: flex;
+    flex-direction: row;
+    width: 1128px;
+    padding-top: 72px;
+    padding-left: 156px;
+}
+
+
+
+
+
+
+
+
+
+.v_frame{
+    box-shadow: 0 79px 132px 0 rgba(0, 0, 0, 0.17);
+    background: #fff;
+    border-radius: 45px;
+    width: 640px;
+    height: 473px;
+    margin: auto;
+    margin-top: 254px;
+}
+.v_frame h1{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #333;
+}
+.v_helloy{
+    padding: 40px 56px;
+}
+.login, .password{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+    margin-left: 54px;
+}
+.autorization label{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+}
+.autorization input{
+    border: 1px solid rgba(102, 102, 102, 0.35);
+    border-radius: 12px;
+    width: 528px;
+    height: 56px;
+}
+.v_frame button{
+    box-shadow: 0 6px 30px 0 rgba(64, 148, 247, 0.3);
+    background: #4094f7;
+    border-radius: 12px;
+    padding: 30px 80px;
+    width: 528px;
+    height: 84px;
+    border: none;
+    margin-left: 54px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
