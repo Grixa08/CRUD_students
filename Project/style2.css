@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+.v_frame{
+    box-shadow: 0 79px 132px 0 rgba(0, 0, 0, 0.17);
+    background: #fff;
+    border-radius: 45px;
+    width: 640px;
+    height: 473px;
+    margin: auto;
+    margin-top: 254px;
+}
+.v_frame h1{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #333;
+}
+.v_helloy{
+    padding: 40px 56px;
+}
+.login, .password{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+    margin-left: 54px;
+}
+.autorization label{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+}
+.autorization input{
+    border: 1px solid rgba(102, 102, 102, 0.35);
+    border-radius: 12px;
+    width: 528px;
+    height: 56px;
+}
+.v_frame button{
+    box-shadow: 0 6px 30px 0 rgba(64, 148, 247, 0.3);
+    background: #4094f7;
+    border-radius: 12px;
+    padding: 30px 80px;
+    width: 528px;
+    height: 84px;
+    border: none;
+    margin-left: 54px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
